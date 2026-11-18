@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Learning Journal</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<!-- ================= SIDEBAR: photo, name, navigation ================= -->
+<aside class="sidebar">
+
+  <div class="profile">
+    <img class="avatar" src="avatar.svg" alt="My profile picture" />
+    <h1 class="username">Laurence Chua</h1>
+    <p class="joined">My Journey and Learnings in Cybersecurity</p>
+  </div>
+
+  <nav class="nav">
+    <a href="#entries">Entries</a>
+    <a href="#topics">Topics</a>
+    <a href="#howto">How to add</a>
+  </nav>
+
+</aside>
+
+
+<!-- ================= MAIN CONTENT ================= -->
+<main class="main">
+
+  <!-- ---------- Intro ---------- -->
+  <header class="intro">
+    <h2>What I learned</h2>
+    <p>A small record of things that finally clicked.</p>
+  </header>
+
+
+  <!-- ---------- ENTRIES ----------
+       To add a new entry, copy one whole <article> block below,
+       paste it under the last one, then change the date,
+       the tags, the title and the paragraph. Save the file. That is all.
+  -->
+  <section id="entries">
+
+    <article class="note">
+      <p class="date">18 November 2025</p>
+      <h3>Small steps beat big plans</h3>
+      <p class="body">
+        I keep starting with a plan that is too big, then quitting in three days.
+        What worked better: pick one small thing — twenty minutes of practice —
+        and do it every day. The plan gets written later, after the habit sticks.
+      </p>
+      <div class="tags">
+        <span class="tag">habits</span>
+        <span class="tag">focus</span>
+      </div>
+    </article>
+
+    <article class="note">
+      <p class="date">12 November 2025</p>
+      <h3>Read the error out loud</h3>
+      <p class="body">
+        When something breaks I used to change code and hope. Now I read the
+        error message slowly, out loud, and find the exact line it names.
+        Nine times out of ten the answer is already written there.
+      </p>
+      <div class="tags">
+        <span class="tag">coding</span>
+        <span class="tag">debugging</span>
+      </div>
+    </article>
+
+    <article class="note">
+      <p class="date">4 November 2025</p>
+      <h3>Write it in my own words</h3>
+      <p class="body">
+        Copying a sentence from a lesson feels like learning, but it is only
+        typing. If I close the page and explain the idea the way I would tell a
+        friend, I find out at once which part I did not really understand.
+      </p>
+      <div class="tags">
+        <span class="tag">learning</span>
+        <span class="tag">writing</span>
+      </div>
+    </article>
+
+    <article class="note">
+      <p class="date">27 October 2025</p>
+      <h3>Twenty-five minutes is enough</h3>
+      <p class="body">
+        One timer, one tab, one thing. When the timer rings I stop, even if I
+        feel like continuing. Starting again is easy when the last round ended
+        well, and the small break keeps the work from becoming a grind.
+      </p>
+      <div class="tags">
+        <span class="tag">focus</span>
+        <span class="tag">time</span>
+      </div>
+    </article>
+
+  </section>
+
+
+  <!-- ---------- TOPICS: a hand-written list of the tags I use ---------- -->
+  <section id="topics">
+    <h2>Topics I write about</h2>
+    <p class="sub">Just a list — add or remove a tag below whenever you like.</p>
+
+    <div class="topic-list">
+      <span class="tag">habits</span>
+      <span class="tag">focus</span>
+      <span class="tag">coding</span>
+      <span class="tag">debugging</span>
+      <span class="tag">learning</span>
+      <span class="tag">writing</span>
+      <span class="tag">time</span>
+    </div>
+  </section>
+
+
+  <!-- ---------- HOW TO ADD ---------- -->
+  <section id="howto">
+    <h2>How to add a new entry</h2>
+
+    <ol class="steps">
+      <li>Open <strong>index.html</strong> in a text editor.</li>
+      <li>Find the line that says <code>To add a new entry</code>.</li>
+      <li>Copy one whole <code>&lt;article&gt;</code> block and paste it under the last one.</li>
+      <li>Change the date, the title, the paragraph and the tags.</li>
+      <li>Save the file and refresh the page in your browser.</li>
+    </ol>
+
+    <p class="sub">This is the shape of one entry:</p>
+
+<pre class="code">
+&lt;article class="note"&gt;
+  &lt;p class="date"&gt;8 January 2026&lt;/p&gt;
+  &lt;h3&gt;The thing I learned&lt;/h3&gt;
+  &lt;p class="body"&gt;What it is, in my own words.&lt;/p&gt;
+  &lt;div class="tags"&gt;
+    &lt;span class="tag"&gt;coding&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+</pre>
+
+    <p class="sub">
+      Colors live at the top of <strong>styles.css</strong>, inside <code>:root</code>.
+    </p>
+  </section>
+
+
+  <footer class="foot">
+    Made by hand. Dark and quiet.
+  </footer>
+
+</main>
+
+</body>
+</html>
